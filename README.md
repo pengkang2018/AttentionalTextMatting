@@ -1,4 +1,4 @@
-# AttentionalTextMaating
+# AttentionalTextMatting
 
 This github repo is for the paper
 ```

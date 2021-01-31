@@ -14,7 +14,7 @@ Please cite our paper if you find it useful. Thank you!
 
 This repo is for generating the dataset used in the paper. You can make your own text-matting dataset following the recipes in this repo.
 
-0. check the requirement
+0. check the requirements
 
 ```
 pip install requirements.txt
@@ -22,14 +22,14 @@ pip install requirements.txt
 
 1. Prepare the ingredients:
 
-Put the background images in the \textbf{background} folder, the fonts in the \textbf{font} folder, the texture images in textbf{texture} folder, and update \textbf{words.py} file to add your words and characters.
+Put the background images in the **background** folder, the fonts in the **font** folder, the texture images in **texture** folder, and update **words.py** file to add your words and characters.
 
 2. Cooking:
 
-Following \textbf{background}, generate \textbf{data\bg}, \textbf{data\fg}, \textbf{data\mask}, \textbf{data\images}, and the image list.
+Following **gen_font_image.ipynb**, generate **data\bg**, **data\fg**, **data\mask**, **data\images**, and the image list.
 
 3. Dessert:
 
-Generate \textbf{data\trimap} following \textbf{trimap.ipynb} 
+Generate **data\trimap** following **trimap.ipynb** 
 
 If you want to get a portion of our dataset, please drop us an email pengkang2022@u.northwestern.edu with your intention. Thank you!

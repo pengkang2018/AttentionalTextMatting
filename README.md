@@ -1,7 +1,7 @@
 # AttentionalTextMaating
 
 This github repo is for the paper
-
+```
 @inproceedings{kang2021atm,
   title={ATM: Attentional Text Matting},
   author={Kang, Peng and Zhang, Jianping and Ma, Chen and Sun, Guiling},
@@ -9,26 +9,26 @@ This github repo is for the paper
   pages={3902--3911},
   year={2021}
 }
-
+```
 Please cite our paper if you find it useful. Thank you!
 
 This repo is for generating the dataset used in the paper. You can make your own text-matting dataset following the recipes in this repo.
 
-0. check the requirements
+## 0. check the requirements
 
 ```
 pip install requirements.txt
 ```
 
-1. Prepare the ingredients:
+## 1. Prepare the ingredients:
 
 Put the background images in the **background** folder, the fonts in the **font** folder, the texture images in **texture** folder, and update **words.py** file to add your words and characters.
 
-2. Cooking:
+## 2. Cooking:
 
 Following **gen_font_image.ipynb**, generate **data\bg**, **data\fg**, **data\mask**, **data\images**, and the image list.
 
-3. Dessert:
+## 3. Dessert:
 
 Generate **data\trimap** following **trimap.ipynb** 
 

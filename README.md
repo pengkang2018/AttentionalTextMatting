@@ -26,9 +26,13 @@ Put the background images in the **background** folder, the fonts in the **font*
 
 ## 2. Cooking:
 
+You need to change the paths in **gen_font_image.ipynb**
+
 Following **gen_font_image.ipynb**, generate **data\bg**, **data\fg**, **data\mask**, **data\images**, and the image list.
 
 ## 3. Dessert:
+
+You need to change the paths in **trimap.ipynb**
 
 Generate **data\trimap** following **trimap.ipynb** 
 
